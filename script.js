@@ -72,22 +72,6 @@ starWarsFilms();
 
 */
 
-/*  
-2. Pediremos los personajes de Star Wars y pintaremos una gráfica de barras en la que podamos ver:
-    - En el eje X el nombre del personaje
-    - En el eje Y el número de películas en las que ha participado.
-
-**API ENDPOINT --> https://swapi.info/api/people**
-*/
-
-/*  
-2. Pediremos los personajes de Star Wars y pintaremos una gráfica de barras en la que podamos ver:
-    - En el eje X el nombre del personaje
-    - En el eje Y el número de películas en las que ha participado.
-
-**API ENDPOINT --> https://swapi.info/api/people**
-*/
-
 async function starWarsPeople() {
     try {
         // Busca y extrae los datos de los personajes de Star Wars
