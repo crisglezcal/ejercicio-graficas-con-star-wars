@@ -85,7 +85,7 @@ async function starWarsPeople() {
 
         // Limita los personajes a los 10 primeros
             // ".slice()" es un método que recorta un array y devuelve una parte de el => peopleData.slice(inicio, fin)
-        const limitedPeople = peopleData.slice(0, 10); // => Empieza en el índice 0 y termina en el 10 (ambos incluidos)
+        const limitedPeople = peopleData.slice(0, 10); // => Empieza en el índice 0 y termina en el 10 (incluye el 0, pero no el 10)
 
         // Extrae y devuelve los nombres y número de películas utilizando ".map"
         const peopleName = limitedPeople.map(person => person.name);
