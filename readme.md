@@ -20,7 +20,6 @@ Practicar cómo crear gráficas utilizando las librerías vistas en clase:
 **Tecnología requerida:** 📚
 - Librería Chartist.js para la visualización de gráficas
 
----
 
 ## 🛠️ Tecnologías usadas
 
